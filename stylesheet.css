@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    background-color: rgb(62, 63, 63);
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: fantasy;
+    margin: 0px 0px auto 0px;
+}
+
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+#contact-info {
+    position: absolute;
+    right: 50px;
+    width: 30%;
+
+}
+#headshot {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+
+}
+
