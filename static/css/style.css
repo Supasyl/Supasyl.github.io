@@ -1,0 +1,176 @@
+html {
+    background-color: #66a5ad;
+}
+
+body {
+    background-color: #66a5ad;
+}
+
+header {
+    top: 0px;
+    position: sticky;
+    color:  chocolate;
+    background-color: #c4dfe6;
+    height: 250px;
+    /* border-bottom: 10px solid chocolate !important; */
+}
+
+header .profile-image {
+    margin-right: 30px;
+    margin-top: 25px;
+    margin-right: 25px;
+    border: 10px 10px 10px 10px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+header h1 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+header h2 {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-weight: lighter;
+}
+
+.fa-linkedin {
+    color: chocolate;
+}
+
+.fa-github {
+    color: chocolate;
+}
+
+.fa-home {
+    color: chocolate;
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    color: chocolate;
+    padding-right: 10px;
+}
+
+.fa-mobile {
+    color: chocolate;
+    padding-right: 20px;
+}
+
+.fa-paperclip {
+    color: chocolate;
+    padding-right: 10px;
+}
+.fa-file-text-o {
+    color: chocolate;
+    padding-right: 10px;
+}
+
+h1 {
+    color: #003b46;
+    font-weight: lighter;
+    font-family:sans-serif;
+}
+
+h2 {
+    color: #003b46;
+    font-weight: lighter;
+}
+
+p {
+    color: #003b46;
+}
+
+.btn {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    background-color: chocolate !important;
+    color: #c4dfe6;
+}
+
+.jumbotron {
+    margin-top: 240px;
+    background-color: #66a5ad;
+}
+
+.section {
+    background-color: #c4dfe6;
+}
+
+.section-middle-left {
+    margin-top: 40px;
+}
+
+.section-bottom-left {
+    margin-top: 40px;
+}
+
+.section-top-right {
+    margin-left: 10px;
+}
+
+.section-middle-right {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.section-bottom-right {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.section-inner {
+    padding: 30px 30px 30px 30px;
+}
+
+hr {
+    border-top: 2px solid chocolate;
+}
+
+/* img {
+    border-style: 1px solid  #003b46 !important;
+} */
+
+.uv {
+    height: 500px;
+}
+
+.etl {
+    height: 350px;
+}
+
+.text {
+    color: #003b46;
+}
+
+ul .education {
+    list-style-position: outside;
+}
+
+ul .projects {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+li:not(:last-child) {
+    color: #003b46;
+    padding-bottom: 10px;
+}
+
+li {
+    color: #003b46;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.footer {
+    color: #003b46;
+    margin: 10px 0px 0px 10px;
+    position: sticky;
+    bottom: 0px;
+    background-color:  #66a5ad;
+}

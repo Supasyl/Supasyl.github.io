@@ -1,78 +1,291 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel='stylesheet' type='text/css' href='stylesheet.css'>
-  <title>Professional Bio</title>
-</head>
-
-<body>
-  
-  <div class="container">
-    <div class='row'>
-        <div class='col-12' class="p-4 bg-success"> <h1>Sylvia Broadbent B.</h1></div>
-    </div>
-    <hr>
-  
-    <div class='row'>
-      <div class="col-lg-8">
-        <div class='box'>
-          <p>
-            After a career as a building surveyor I am now a Data Analyst with a certificate from UWA. The top three skills I learned are Python, SQL and R with many others. I love organising and data analytics even takes that a step further by allowing me to also suggest and implement improvements. 
-          </p>
+  <head>
+        <!-- required meta tags -->
+        <meta charset="UTF-8">
     
-          <p>
-            While running my own business, I have proven my skills as a project manager with a critical mind focussed on problem solving to achieve the best outcome for my clients. I am reputable and well respected amongst my peers due to my honesty and integrity. Now that I have gained programming skills in analytics, I am in a unique position to understand what is involved in running a business and can combine my skills to extract the right data and advise you what changes can positively impact your business.
-          </p>
-          <h3>Technical skills</h3>
-          <ul class="list-unstyled">
-            <li><strong>Languages:</strong> Python, SQL, VBA, HTML</li>
-            <li><strong>Applications:</strong> Github, PostgeSQL, MongoDB, Flask, Command Line</li>
-            <li><strong>Tools:</strong> Excel, Jupyter Notebook, Pandas, Matplotlib, API interactions, dbAdmin, Databasing</li>
-          </ul>
-          <h3>Projects</h3>
-          <h4>Python Data Visualisation | <a href='https://github.com/Supasyl/Data-Analytics-Project-1'>link to github</a> | role: team member (1 of 4)</h4>
-          <p>A recent project completed with my team was about the impact of the Covid-19 crisis on the residential construction and real estate market. My role was completed using Python, Pandas, Matplotlib and data analytics to find the answer to our hypothesis, that Covid-19 does not affect all parts of the market.</p>
-          <h3>Work Experience</h3>
-          <h4>IQ Building Surveyors | Owner, Building Surveyor Level 1 | 2010-2020</h4>
-          <p>While running my own business, I have proven my skills as a project manager with a critical mind focussed on problem solving to achieve the best outcome for my clients. My clients particularly appreciated my ability to explain the legislation in terms they could understand. I am reputable and well respected amongst my peers due to my honesty and integrity.</p>
-          <h4>Shire of Waroona, Shire of Murray, City of Melville, City of Mandurah</h4>
-          <h4>Building Surveyor (varying from assistant to principal) | 2005-2020</h4>
-          <p>Working at local government in a legislative role has grown my skills in communicating with all types of customers. An important part of my role is to work together with different departments to ensure the best outcome for the customer.</p>
-          <h3>Education</h3>
-          <h4>Certificate, Data Analytics | University of Western Australia</h4>
-          <p>Fast-paced program, focused on the practical and technical skills needed to solve data problems.</p>
-          <h4>Graduate Certificate in Building and Planning (Building Surveying)
-            University of South Australia</h4>
-          <p>Post Graduate degree to transfer my Dutch Bachelor degree in Building to Australia.</p>
-          </div>
-      </div>
-      <div class="col-lg-4-auto">
-        <div class='box'>
-          <div id="contact-info">
-            <figure>
-              <img id='headshot' src='IMG_5246 copy 2.jpg' alt='headshot'>
-            </figure>
-            <h2>Contact Info</h2>
-            <ul class="list-unstyled">
-              <li><strong>Phone:</strong> +61 (0)437 837 080</li>
-              <li><strong>Email:</strong> supasyl@gmail.com</li>
-              <li><strong>Location:</strong> Pinjarra, Western Australia</li>
-              <li><strong>Github:</strong> <a href='https://github.com/Supasyl'>/Supasyl</a></li>
-              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sylvia-broadbent/">/sylvia-broadbent</a></li>
-            </ul>
-          </div>
+        <!-- Bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/531608a13f.js" crossorigin="anonymous"></script>
+
+        <!-- Our CSS -->
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    
+        <title>Sylvia Broadbent Portfolio</title>
+
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class='header fixed-top border-bottom'>
+        <div class='container'>
+            <div class='row'>
+                <!-- profile image -->
+                <div class='col-lg-2 col-sm-2'>
+                    <img class='profile-image img-responsive pull-left' src = '/static/images/IMG_5246 copy 2.jpg' alt='Sylvia Broadbent'>
+                </div>    
+                <!-- profile name -->
+                <div class='col-lg-8 col-sm-10'>
+                    <div class='profile-content text-center'>
+                        <h1 class='name'>Sylvia Broadbent B</h1>
+                        <h2 class='role'>Data Analyst</h2>
+                    </div>
+                </div>
+                <!-- contact info -->
+                <div class='col-lg-2'>
+                    <a type="button" class="btn btn-primary pull-right border-0 text-center" href='mailto: supasyl@gmail.com'><i class='far fa-paper-plane'></i>  CONTACT ME</a><br>
+                    <ul class='social list-inline text-center'>
+                        <li>
+                            <a href='https://www.linkedin.com/in/sylvia-broadbent/' target='_blank'>
+                            <i class='fab fa-linkedin fa-2x img-responsive pull-right' alt='LinkedIn'></i></a>
+                        </li>
+                        <li>
+                            <a href='https://github.com/Supasyl' target='_blank'>
+                            <i class='fab fa-github fa-2x img-responsive pull-right' alt='Github'></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- main page -->
+    <div class='jumbotron jumbotron-fluid'> 
+        <div class='container'>
+            <div class='row'>
+                <div class='col-lg-8 col-sm-12'>
+                    <!-- about section -->
+                    <section class='section section-top-left'>
+                        <div class='section-inner'>
+                            <h1>About me</h1>
+                            <p>After a career as a building surveyor, I am now a Data Analyst with a Certificate from the University of Western Australia. The top three skills I learned are Python, SQL and JavaScript with many others. I love organising, and data analytics even takes that a step further by allowing me to also suggest and implement improvements.</p>
+                            <p>While running my own business, I have proven my skills as a project manager with a critical mind focussed on problem solving to achieve the best outcome for my clients. I am reputable and well respected amongst my peers due to my honesty and integrity.
+                                Now that I have gained programming skills in analytics, I am in a unique position to understand what is involved in running a business and can combine my skills to extract the right data and advise you what changes can positively impact your business.
+                                </p>
+                        </div>
+                    </section>
+                    <!-- technical skill section -->
+                    <section class='section section-middle-left'>
+                        <div class='section-inner'>
+                            <h1>Technical skills</h1>
+                            <ul class='list-unstyled'>
+                                <li>
+                                    <i class='fa fa-check' aria-hidden='true'></i>
+                                    <strong>Programming languages: </strong> VBA, Python, SQL, HTML, JavaScript
+                                </li>
+                                <li>
+                                    <i class='fa fa-check' aria-hidden='true'></i>
+                                    <strong>Databases: </strong> PostgreSQL, MongoDB
+                                </li>
+                                <li>
+                                    <i class='fa fa-check' aria-hidden='true'></i>
+                                    <strong>Applications: </strong> Github, Command Line, Flask, Beautiful Soup
+                                </li>
+                                <li>
+                                    <i class='fa fa-check' aria-hidden='true'></i>
+                                    <strong>Tools: </strong> Excel, Jupyter, Pandas, Matplotlib, dbAdmin, ETL, API, D3, Plotly, Leaflet, Tableau
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- project section -->
+                    <section class='section section-bottom-left'>
+                        <div class='section-inner'>
+                            <h1>Projects</h1>
+                            <hr>
+                            <div>
+                                <h2 class='text-center'>Data Visualisation Project</h2>
+                                <figure class='text-center'>
+                                    <img class='uv' src='/images/Current_UV_Index_2.png'>
+                                </figure>
+                                <ul class='fa-ul'>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Project about raising awareness of the UV Index values and the importance of protection.
+                                    </li>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Completed as part of a group of 4. I was responsible for the visualization and presentation, non-geo graphs including the extraction of the information from the database and through an API.
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Completed using Javascript including D3 and Plot.ly, HTML including bootstrap, CSS.
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div>
+                                <h2 class='text-center'>JavaScript and Document Object Model (DOM) manipulation</h2>
+                                <ul class='fa-ul'>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Project using a given dataset with UFO sightings in 2010. 
+                                    </li>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Created a website showing the information in a table format.
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Provided a filter search with multiple filter options.
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div>
+                                <h2 class='text-center'>Extract, Transform and Load (ETL)</h2>
+                                <figure class='text-center'>
+                                    <img class='etl' src='/images/Lego_db_ERD.png'>
+                                </figure>
+                                <ul class='fa-ul'>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Project to find different datasets available online and combine them into a database.
+                                    </li>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Reading the data of LEGO sets using Python with Pandas.
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Creating a report including diagrams to visualise the information using Pandas and Matplotlib.
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Creating a schema using an Entity Relational Diagram (ERD).
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Entering the information into a new PostgreSQL database using PGAdmin.
+                                    </li>
+                                </ul>
+                                <p class='text-center'>
+                                    <i class='fa fa-file-text-o fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text text-center' href='/images/ETL Project report.pdf' target='_blank'> Download the report</a>
+                                </p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h2 class='text-center'>Python Data Visualisation</h2>
+                                <ul class='fa-ul'>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Project about the impact of the Covid-19 crisis on the residential construction and real estate market.
+                                    </li>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Completed as part of a group of 4. I was responsible for the analysis of the issued permits, construction value and correlation.
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Completed using Python, Pandas, Matplotlib and data analytics to find the answer to our hypothesis, that Covid-19 does not affect all parts of the market.
+                                    </li>
+                                </ul>
+                                <p class='text-center'>
+                                    <i class='fa fa-file-text-o fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text text-center' href='/images/Python Data Visualisation - Report.pdf' target='_blank'> Download the report</a>
+                                </p>
+                            </div>
+                            <hr>
+                        </div>
+                    </section>
+                </div>
+                <!-- right column -->
+                <div class='secondary col-lg-4 col-sm-12'>
+                    <!-- contact me section -->
+                    <section class='section section-top-right'>
+                        <div class='section-inner'>
+                            <ul class='list-unstyled info'>
+                                <li>
+                                    <i class='fa fa-home fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text' href='https://www.google.com/maps/place/Pinjarra+WA+6208/@-32.6137189,115.8431595,13z/data=!3m1!4b1!4m8!1m2!2m1!1sgoogle+pinjarra!3m4!1s0x2a326fbf50d6d253:0x504f0b535df4f30!8m2!3d-32.6270114!4d115.8788766' target='_blank'> Pinjarra, Western Australia</a>
+                                </li>
+                                <li>
+                                    <i class='fa fa-envelope fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text' href='mailto: supasyl@gmail.com'> supasyl@gmail.com</a>
+                                </li>
+                                <li>
+                                    <i class='fa fa-mobile fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text'>  0437 873 080</a>
+                                </li>
+                                <li>
+                                    <i class='fa fa-paperclip fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text' href='/images/Resume_Sylvia_Broadbent.pdf' target='_blank'> Download my Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- education section -->
+                    <section class='section section-middle-right'>
+                        <div class='section-inner'>
+                            <h1>Education</h1>
+                            <ul class='fa-ul'>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                                    <strong>Certificate,<br>Data Analytics & Visualisation</strong><br>University of Western Australia
+                                </li>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                                    <strong>Graduate Certificate,<br>Building and Planning (Building Surveying)</strong><br> University of South Australia
+                                </li>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                                    <strong>Bachelor Degree (B),<br>Architectural and Construction Engineering</strong><br> University of The Hague (NL)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- language section -->
+                    <section class='section section-middle-right'>
+                        <div class='section-inner'>
+                            <h1>Languages</h1>
+                            <ul class='fa-ul'>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-globe" aria-hidden="true"></i></span>English
+                                </li>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-globe" aria-hidden="true"></i></span>Dutch
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- citizenship section -->
+                    <section class='section section-bottom-right'>
+                        <div class='section-inner'>
+                            <h1>Citizenship</h1>
+                            <ul class='fa-ul'>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-certificate" aria-hidden="true"></i></span>Australian
+                                </li>
+                                <li><span class='fa-li'>
+                                    <i class="fa fa-certificate" aria-hidden="true"></i></span>Dutch
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
     
-    <section>
-      
-    </section>
-    
-    
-  </main>
-</body>
+    <!-- footer -->
+    <footer class='footer'>
+        <p class='bottom'>Copyright Sylvia Broadbent</p>
+    </footer>
 
+    <!-- Our JS -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
+
+  </body>
 </html>
