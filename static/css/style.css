@@ -68,6 +68,11 @@ header h2 {
     padding-right: 10px;
 }
 
+.fa-desktop {
+    color: chocolate;
+    padding-right: 10px;
+}
+
 h1 {
     color: #003b46;
     font-weight: lighter;
@@ -139,6 +144,30 @@ hr {
 
 .etl {
     height: 350px;
+}
+
+.web {
+    height: 300px;
+}
+
+.scrape {
+    height: 450px;
+}
+
+.ufo {
+    height: 450px;
+}
+
+.plotly {
+    height: 450px;
+}
+
+.d3 {
+    height: 350px;
+}
+
+.leaflet {
+    height: 400px;
 }
 
 .text {
