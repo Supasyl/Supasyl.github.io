@@ -12,7 +12,11 @@ header {
     color:  chocolate;
     background-color: #c4dfe6;
     height: 250px;
-    /* border-bottom: 10px solid chocolate !important; */
+    
+}
+
+.line {
+    border-bottom: 2px solid chocolate !important;
 }
 
 header .profile-image {
