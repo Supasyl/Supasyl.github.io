@@ -24,14 +24,14 @@
   <body>
     <!-- header -->
     <header class='header line fixed-top border-bottom' >
-        <div class='container'>
+        <div class='container-fluid'>
             <div class='row'>
                 <!-- profile image -->
-                <div class='col-lg-2 col-sm-2'>
+                <div class='col-lg-2'>
                     <img class='profile-image img-responsive pull-left' src = '/images/headshot.jpg' alt='Sylvia Broadbent'>
                 </div>    
                 <!-- profile name -->
-                <div class='col-lg-8 col-sm-10'>
+                <div class='col-lg-8'>
                     <div class='profile-content text-center'>
                         <h1 class='name'>Sylvia Broadbent B</h1>
                         <h2 class='role'>Data Analyst</h2>
@@ -99,6 +99,35 @@
                         <div class='section-inner'>
                             <h1>Projects</h1>
                             <hr>
+                            <!-- machine learning -->
+                            <div>
+                                <h2 class='text-center'>Machine learning</h2>
+                                <figure class='text-center'>
+                                    <img class='survey img-fluid' src='/images/Survey.png'>
+                                </figure>
+                                <ul class='fa-ul'>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Project using a survey providing personal predictions to get the conversation going. 
+                                    </li>
+                                    <li><span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        The survey data used for the machine learning part is collected from the US National Survey on Drug Use and Health (NSDUH) from 2015 to 2019. 
+                                    </li>
+                                    <li>
+                                        <span class='fa-li'>
+                                        <i class="fa fa-circle-thin fa-xs" aria-hidden="true"></i></span>
+                                        Two machine learning models by Scikit Learn: Logistic Regression and Random Forest. 
+                                    </li>
+                                </ul>
+                                <p class='text-center'>
+                                    <i class='fa fa-desktop fa-lg img-responsive' aria-hidden="true"></i>
+                                    <a class='text text-center' href='https://predictions-project-3.herokuapp.com' target='_blank'> Visit the website</a>
+                                </p>
+                            </div>
+                            <hr>
+                            <!-- tableau -->
                             <div>
                                 <h2 class='text-center'>Tableau</h2>
                                 <figure class='text-center'>
@@ -124,6 +153,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Data Visualisation Project -->
                             <div>
                                 <h2 class='text-center'>Data Visualisation Project</h2>
                                 <figure class='text-center'>
@@ -151,6 +181,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Geo-mapping with Leaflet -->
                             <div>
                                 <h2 class='text-center'>Geo-mapping with Leaflet</h2>
                                 <figure class='text-center'>
@@ -182,6 +213,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- D3 Challenge -->
                             <div>
                                 <h2 class='text-center'>D3 Challenge</h2>
                                 <figure class='text-center'>
@@ -209,6 +241,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Plotly dashboard -->
                             <div>
                                 <h2 class='text-center'>Plotly dashboard</h2>
                                 <figure class='text-center'>
@@ -236,6 +269,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- JavaScript & D3 Challenge -->
                             <div>
                                 <h2 class='text-center'>JavaScript & D3 Challenge</h2>
                                 <figure class='text-center'>
@@ -263,6 +297,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Extract, Transform and Load (ETL) -->
                             <div>
                                 <h2 class='text-center'>Extract, Transform and Load (ETL)</h2>
                                 <figure class='text-center'>
@@ -298,6 +333,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Web Scraping Challenge -->
                             <div>
                                 <h2 class='text-center'>Web Scraping Challenge</h2>
                                 <figure class='text-center'>
@@ -329,6 +365,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Web Design Challeng -->
                             <div>
                                 <h2 class='text-center'>Web Design Challenge</h2>
                                 <figure class='text-center'>
@@ -352,6 +389,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Python Data Visualisation -->
                             <div>
                                 <h2 class='text-center'>Python Data Visualisation</h2>
                                 <ul class='fa-ul'>
@@ -461,9 +499,6 @@
     <footer class='footer'>
         <p class='bottom'>Copyright Sylvia Broadbent</p>
     </footer>
-
-    <!-- Our JS -->
-    <script type="text/javascript" src="static/js/logic.js"></script>
 
   </body>
 </html>
